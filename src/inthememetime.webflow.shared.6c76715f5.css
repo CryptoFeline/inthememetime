@@ -7094,7 +7094,6 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 1230px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 30px;
