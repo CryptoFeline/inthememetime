@@ -1,0 +1,35 @@
+<svg width="300" height="600" viewBox="0 0 300 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="600" rx="30" fill="#000000"/>
+  <rect x="20" y="50" width="260" height="500" rx="20" fill="#1a1a1a"/>
+  
+  <!-- Game UI Elements -->
+  <rect x="40" y="70" width="220" height="60" rx="10" fill="#4A90E2"/>
+  <text x="150" y="95" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Time Inc.</text>
+  <text x="150" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">Tap to Earn Time!</text>
+  
+  <!-- Clock in center -->
+  <circle cx="150" cy="250" r="60" fill="#2d2d2d" stroke="#4A90E2" stroke-width="4"/>
+  <circle cx="150" cy="250" r="8" fill="#4A90E2"/>
+  <line x1="150" y1="250" x2="150" y2="210" stroke="#4A90E2" stroke-width="3" stroke-linecap="round"/>
+  <line x1="150" y1="250" x2="180" y2="250" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Tap indicators -->
+  <circle cx="100" cy="200" r="8" fill="#FFD700" opacity="0.7"/>
+  <circle cx="200" cy="300" r="6" fill="#FFD700" opacity="0.5"/>
+  <circle cx="120" cy="320" r="10" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Stats at bottom -->
+  <rect x="40" y="400" width="220" height="80" rx="10" fill="#2d2d2d"/>
+  <text x="150" y="425" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Current Stats</text>
+  <text x="70" y="450" fill="#4A90E2" font-family="Arial, sans-serif" font-size="12">Time: 1,234</text>
+  <text x="70" y="470" fill="#00D4AA" font-family="Arial, sans-serif" font-size="12">Workers: 8</text>
+  <text x="180" y="450" fill="#FFA500" font-family="Arial, sans-serif" font-size="12">Level: 12</text>
+  <text x="180" y="470" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="12">Rate: 45/sec</text>
+  
+  <!-- Clocky worker -->
+  <ellipse cx="150" cy="350" rx="15" ry="20" fill="#FFD700"/>
+  <circle cx="150" cy="340" r="8" fill="#FFA500"/>
+  <circle cx="145" cy="337" r="2" fill="#000000"/>
+  <circle cx="155" cy="337" r="2" fill="#000000"/>
+  <rect x="147" y="345" width="6" height="2" fill="#000000"/>
+</svg>
