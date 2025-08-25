@@ -15720,6 +15720,7 @@ blockquote {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
+  height: auto;
 }
 
 .dapp-dashboard-container {
