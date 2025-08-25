@@ -16010,7 +16010,7 @@ blockquote {
   #dapp-claim {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    min-height: 100vh;
+    min-height: 150vh;
     display: flex;
     align-items: center;
   }
